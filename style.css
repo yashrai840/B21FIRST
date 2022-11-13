@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   background-color: #F6F6EE;
+}
+#main{
+    width: 100%;
+}
+#nav {
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 5vw;
+    background-color: #fff;
+}
+ #links {
+    display: flex;
+    gap: 30px;
+}
+#links a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+#nav #text{
+    font-weight: 400;
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+#nav  span{
+    font-weight:900;
+}
+#center{
+  /* position: absolute; */
+    width: 100%;
+    top: 20%;
+    padding: 7vh 5vh;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Playfair Display';
+
+}
+#center p{
+    margin: 10px;
+}
+#center h1{
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+#center button{
+    padding: 12px 32px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+     margin-top: 8px;
+}
+#photo{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+#main .bottom {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    /* background-color: #000000; */
+}
+
+#main .bottom .bottom-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 35px;
+    text-align: right;
+    border-right: 2px solid black;
+    
+}
+
+#main .bottom .bottom-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    margin-top: 15px;
+    
+}
+#main .bottom .bottom-right .top,
+#main .bottom .bottom-right .bot {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#main .bottom .bottom-right i{
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+#main .bottom-left h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+#line{
+    margin-top: 10px;
+    margin-left: 300px;
+    height: 5px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+.bottom-left p{
+    margin-left: 130px;
+}
